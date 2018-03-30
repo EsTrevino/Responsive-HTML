@@ -1,1 +1,1 @@
-# responsive-practice-no-bootstrap
+# Responsive HTML Practice
