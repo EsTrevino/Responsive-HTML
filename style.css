@@ -1,0 +1,475 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #383e4b;
+	overflow: hidden;
+	text-align: center;
+	z-index: 1;
+}
+
+.navbar ul,
+li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.navbar a:hover {
+	background-color: grey;
+	border-radius: 10px;
+}
+
+.navbar a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 5px 25px;
+	display: inline-bloc;
+}
+
+#titleFont {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 150px;
+	font-size: 15px;
+}
+
+#titleImage {
+	background-image: url('./assets/london.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-top: 3%;
+	height: 600px;
+	font-size: 30px;
+	background-attachment: fixed;
+	opacity: 0.7;
+}
+
+#titleImage h1 {
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 180px;
+	text-shadow: 2px 2px #000000;
+}
+
+.card {
+	margin-top: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+
+.card img {
+	max-width: 100%;
+	height: 200px;
+}
+
+.card-body {
+	padding: 10px;
+	padding-bottom: 40px;
+}
+
+button {
+	background-color: #3b5998;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 16px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+#sectionTwo {
+	width: 90%;
+	margin-top: 50px;
+	margin-left: 5%;
+}
+
+.parallax-two-column {
+	color: #5b5b5b;
+}
+
+.bootstrapCard {
+	color: green;
+}
+
+.topSectionTwo {
+	width: 100%;
+	display: flex;
+}
+
+.bottomSectionTwo {
+	display: flex;
+	margin-top: 5%;
+}
+
+.bottomSectionTwo .card {
+	width: 40%;
+}
+
+.responsive-design {
+	color: #2187bf;
+}
+
+#sectionThree {
+	background-image: url('./assets/mountain2.jpg');
+	background-position: left top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	width: 100%;
+	color: white;
+	height: 350px;
+	margin-top: 5%;
+	text-shadow: 4px 4px #000000;
+}
+
+.sectionThreeText {
+	text-align: center;
+	padding-top: 7%;
+}
+
+.sectionThreeP {
+	width: 50%;
+	margin: auto;
+}
+
+#sectionFour {
+	width: 100%;
+}
+
+.fourTop {
+	display: flex;
+	margin: auto;
+}
+
+.cardFour {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 25%;
+	text-align: center;
+	margin: 2%;
+}
+
+.cardFour img {
+	max-width: 100%;
+	height: 200px;
+}
+
+.fourBottom {
+	margin-top: 5px;
+}
+
+.cardFourBottom {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 96.5%;
+	margin: auto;
+}
+
+.card-body-four {
+	padding: 10px;
+}
+
+.cardFourBottom img {
+	width: 100%;
+	height: 400px;
+	align-content: center;
+}
+
+#sectionFive {
+	background-image: url('./assets/sunshine.jpg');
+	background-position: left top;
+	background-size: cover;
+	opacity: 0.5;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 550px;
+	width: 100%;
+	border: solid 1px white;
+}
+
+.form {
+	width: 60%;
+	margin: auto;
+}
+
+.upperFormBox {
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.upperFormBox h1 {
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+.lowerFormBox {
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	display: flex;
+}
+
+.upperTextBox {
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 10px;
+	color: black;
+	padding: 8px;
+}
+
+.leftinput {
+	width: 90%;
+	margin-top: 5%;
+	padding: 10px;
+	outline: none;
+	border: none;
+	background-color: white;
+	opacity: 0.6;
+	color: black;
+	border-radius: 5px;
+}
+
+.leftinput::placeholder {
+	color: black;
+}
+
+.leftLower {
+	width: 50%;
+	height: 200px;
+}
+
+.rightLower {
+	width: 50%;
+}
+
+.rightInput {
+	outline: none;
+	border: none;
+	width: 90%;
+	margin-left: 2%;
+	margin-top: 6%;
+	height: 110px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+	opacity: 0.6;
+}
+
+.rightInput::placeholder {
+	color: black;
+}
+
+.submitBox {
+	width: 80%;
+	margin: auto;
+}
+
+.submitBox button {
+	float: right;
+	margin-right: 1%;
+	background-color: black;
+}
+
+.submitBox button:hover {
+	background-color: green;
+}
+
+.sectionSix {
+	text-align: center;
+	color: #9e9e9e;
+	font-style: italic;
+	margin-top: 3%;
+	text-align: center;
+}
+
+hr {
+	color: #9e9e9e;
+	opacity: 0.6;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+}
+
+/*media queries*/
+
+@media only screen and (max-device-width: 480px) {
+	#titleImage {
+		background-image: url('./assets/london.jpg');
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		margin-top: 3%;
+		height: 600px;
+		font-size: 40px;
+		background-attachment: fixed;
+		opacity: 0.7;
+	}
+
+	button {
+		background-color: #3b5998;
+		border: none;
+		color: white;
+		padding: 5% 10%;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 4px;
+		font-size: 20px;
+		display: inline-block;
+		margin-top: 10px;
+		font-size: 25px;
+	}
+
+	#sectionTwo {
+		width: 100%;
+		margin: auto;
+	}
+	.topSectionTwo {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.card {
+		width: 90%;
+		margin-top: 4%;
+	}
+
+	.bottomSectionTwo {
+		font-size: 18px;
+		display: block;
+	}
+
+	.bottomSectionTwo .card {
+		width: 90%;
+		font-size: 18px;
+	}
+
+	#sectionThree {
+		background-image: none;
+		background-color: grey;
+		background-size: 100%;
+		width: 100%;
+		color: white;
+		height: 300px;
+		margin-top: 5%;
+		text-shadow: none;
+		font-size: 25px;
+	}
+
+	.sectionThreeText {
+		padding-top: 1%;
+		height: 100%;
+	}
+
+	.sectionThreeP {
+		width: 90%;
+	}
+
+	.fourTop {
+		display: block;
+		margin: auto;
+	}
+
+	.fourTop .cardFour {
+		margin: auto;
+		width: 90%;
+		margin-top: 5%;
+		font-size: 18px;
+	}
+
+	.fourBottom {
+		display: block;
+		margin: auto;
+	}
+
+	.fourBottom .cardFourBottom {
+		width: 90%;
+		margin-top: 5%;
+		font-size: 18px;
+	}
+
+	.specialButton {
+		margin-bottom: 2%;
+	}
+
+	#sectionFive {
+		background-image: none;
+		background-color: grey;
+		height: 650px;
+	}
+
+	.form {
+		width: 90%;
+		font-size: 18px;
+	}
+
+	.upperFormBox {
+		margin: auto;
+		width: 80%;
+	}
+
+	.lowerFormBox {
+		padding-top: 7%;
+		margin: auto;
+		width: 80%;
+	}
+
+	.leftLower {
+		width: 50%;
+	}
+
+	.rightInput {
+		width: 90%;
+		margin-top: 5%;
+		height: 60%;
+		padding: 10px;
+	}
+
+	.leftinput {
+		width: 90%;
+		padding: 3%;
+	}
+
+	.submitBox {
+		width: 100%;
+	}
+
+	.submitBox button {
+		background-color: #3b5998;
+		border: none;
+		color: white;
+		padding: 4% 8%;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 4px;
+		font-size: 18px;
+		margin-right: 40%;
+	}
+}
